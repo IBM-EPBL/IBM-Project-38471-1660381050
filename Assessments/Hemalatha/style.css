@@ -1,0 +1,272 @@
+body{
+margin:50px ;
+margin-top: 0%;
+padding:0%;
+
+}
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.07rem);
+  padding-left: var(--bs-gutter-x, 0.07em);
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1060px; } }
+#link{
+
+    margin: 0;
+}
+
+img{
+   float: left;
+    
+    height: 10%;
+    width: 10%;
+    padding-top: 0px;
+    padding-left:40px ;
+} 
+.headline{
+    
+    margin-top: 1px;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    padding-left: 590px;
+    padding-top: 12px;
+    position:relative;
+    
+    
+}
+
+.container1{
+
+    margin: 0px;
+    background-color:cornflowerblue;
+    text-align: right;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:5px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
+    
+
+    
+    
+}
+#p1{
+    
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size:xxx-large;
+    text-align: center;
+    
+}
+#p2{
+    font-size: xx-large;
+    font-weight: medium;
+    text-align: center;
+    padding-left: 15px;
+}
+
+#btnc{
+    border: 3px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: large;
+
+
+    
+}
+#btn{
+
+    border: green;
+    border-radius: 50px;
+    background-color: green;
+    margin-right: 300px;
+    color: whitesmoke;
+    font-size: large;
+    
+   
+
+}
+
+
+
+#profile{
+    float: left;
+   
+    width: 10%;
+    padding-top: 90px;
+    padding-left:40px ;
+    
+}
+#p3{
+    
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.p4{
+    
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: 50%  30%  20% ;
+    column-gap: 1px;
+    
+    
+}
+#age{
+
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.progress{
+ 
+    float: right;
+    
+    
+}
+.pro{
+
+    
+    float:top;
+    position: relative;
+}
+.box{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+}
+.line{
+
+    width: 75%;
+    height: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.box1{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid  cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+}
+.line1{
+
+    width: 65%;
+    height: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.box2{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid  cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+}
+.line2{
+
+    width: 55%;
+    height: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.box3{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid green;
+    border-radius: 10px 10px 10px 10px;
+}
+.line3{
+
+    width: 85%;
+    height: 10px;
+    background-color:greenyellow;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.box4{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid green;
+    border-radius: 10px 10px 10px 10px;
+}
+.line4{
+
+    width: 50%;
+    height: 10px;
+    background-color:greenyellow;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.box5{
+
+    width: 350px;
+    height: 10px;
+    border: 1px solid green;
+    border-radius: 10px 10px 10px 10px;
+}
+.line5{
+
+    width: 75%;
+    height: 10px;
+    background-color:greenyellow;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+#p5,#p6{
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: large;
+   
+
+}
+#p6{
+
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 80px;
+ 
+}
+
+#skills{
+
+    font-weight: bolder;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
