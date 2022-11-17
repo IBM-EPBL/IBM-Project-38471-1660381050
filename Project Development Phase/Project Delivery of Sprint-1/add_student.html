@@ -1,0 +1,115 @@
+<style> 
+    Body {  
+      font-family: Calibri, Helvetica, sans-serif;
+      background:url(pic1.png);
+      background-size:cover;
+      background-position:cover;
+      padding:0;
+      margin:0; 
+      background-image: linear-gradient(#00b4d8,#f1c0e8);
+      text-align: center;
+    
+    }
+       
+    button {   
+           background-color:#6495ED;   
+           width: 100%;  
+           color:#FF1493;  
+            padding: 12px;   
+            margin: 10px 0px;
+        border:1px solid #E6E6F4;   
+            cursor: pointer; 
+        border-color:#E6E6F4; 
+             } 
+     form{
+        padding:50px 0;
+    }  
+       
+     input[type=text], input[type=password] {   
+            width: 30%;   
+            margin: 8px 0;  
+            padding: 12px 20px;   
+            display: inline-block;   
+            border:3px solid skyblue;   
+            box-sizing: border-box;   
+        }
+        button:hover {   
+            opacity: 0.7;   
+        }   
+      .cancelbtn {   
+            width: 300px;   
+            padding: 10px 18px;  
+            margin: 10px 0px;
+        }   
+            
+      
+     .container{   
+            padding: 20px;
+        height:400px;  
+        width:300px;
+        background: #fff,#ffd6d6; 
+        
+        position:relative;
+        margin:auto;
+     }
+    
+    
+    h1{
+            color:white;
+            text-align: center;
+        font-family:mengnto;
+        text-shadow:2px 2px #FF1493;	
+    } 
+    label{
+        color:blue;
+        font-family:mengnto;
+        
+    }
+    a{
+        color:blue;
+        font-family:mengnto;
+        font-size:bold;
+        
+    }
+    .loginbox{
+        width:320px;
+        height:420px;
+        background:#000;
+        color:#fff;
+        top:51%;
+        left:50%;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing:border-box;
+    }
+    .avatar{
+        width:100px;
+        height:100px;
+        border-radius:70%;
+        position:absolute;
+        top:-50px;
+        left:calc(50% - 50px);
+    
+    }
+    input[type=checkbox], checked[checked] {  
+        color:red;
+    }
+    </style>   
+     
+
+
+<form action = "home.html" method = "POST">
+    <h3>Customer Information</h3>
+    Name<br>
+    <input type = "text" name="name" /></br>
+    
+    Address<br>
+    <textarea name="address" ></textarea><br>
+    
+    City<br>
+    <input type = "text" name="city" /><br>
+    
+    Create Password<br>
+    <input type = "text" name="pin" /><br><br>
+    <input type = "submit" value = "submit" /><br>
+ </form>
